@@ -1,0 +1,2 @@
+* Have Python installed 
+* Have the Flask library installed, you can do this by executing the command "pip install flask"
