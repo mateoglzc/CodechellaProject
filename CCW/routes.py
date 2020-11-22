@@ -1,4 +1,5 @@
 from flask import render_template, url_for, request
+from Naked.toolshed.shell import execute_js, muterun_js
 from CCW import app
 
 
@@ -12,4 +13,5 @@ def tweetsInfo():
 
 @app.route('/visualmap')
 def visualMap():
+    # result = execute_js('CCW/static/JS/getTweetLocations.js')
     return render_template('visualMap.html')
